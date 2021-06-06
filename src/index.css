@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "mononoki";
+  src: url("./assets/mononoki-Regular.ttf") format("ttf");
+}
+
+body {
+  margin: 0;
+  font-family: 'mononoki';
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+.cell {
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  font-size: 42px;
+  height: 12px;
+  line-height: 12px;
+}
+
+.hifen {
+  color: red;
+}
+
+.cell:hover {
+  outline: 1px solid lightblue;
+  outline-offset: 0;
+}
